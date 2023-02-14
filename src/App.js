@@ -7,7 +7,7 @@ import store from "./store/store";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Todo_toolKit_Tailwind",
     element: <Home />,
     children: [{ index: true, element: <Index /> }],
   },
